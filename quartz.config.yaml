@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: fa-IR
-  baseUrl: https://github.com/dawoodmashayekhwork-bit/podbm/
+  baseUrl: https://dawoodmashayekhwork-bit.github.io/podbm/
   ignorePatterns:
     - private
     - templates
