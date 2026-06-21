@@ -124,32 +124,9 @@ article {
 }
 
 // جدول ها 
-table {
-  margin: 2rem auto;
-  border-collapse: collapse;
-  border-radius: 16px;
-  overflow: hidden;
-  width: 100%;
-  background: var(--lightgray);
-}
 
-th {
-  text-align: center;
-  padding: 12px;
-  background: var(--secondary);
-  color: white;
-}
 
+th,
 td {
-  text-align: center;
-  padding: 10px;
-}
-
-tr:nth-child(even) {
-  background: var(--highlight);
-}
-
-tr:hover {
-  background: var(--tertiary);
-  transition: 0.2s;
+  text-align: center !important;
 }
