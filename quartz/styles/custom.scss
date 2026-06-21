@@ -115,6 +115,7 @@ img {
 }
 
 // رنگ پشت مطالب
+
 article {
   background: white;
   padding: 2rem;
@@ -125,28 +126,30 @@ article {
 // جدول ها 
 table {
   margin: 2rem auto;
-  border: none;
-  border-radius: 20px;
+  border-collapse: collapse;
+  border-radius: 16px;
   overflow: hidden;
+  width: 100%;
   background: var(--lightgray);
-  box-shadow: 0 8px 24px rgba(0,0,0,.08);
 }
 
 th {
   text-align: center;
-  padding: 14px;
-  font-weight: 700;
+  padding: 12px;
+  background: var(--secondary);
+  color: white;
 }
 
 td {
   text-align: center;
-  padding: 12px;
+  padding: 10px;
 }
 
-tr {
-  transition: all .2s ease;
+tr:nth-child(even) {
+  background: var(--highlight);
 }
 
 tr:hover {
-  transform: scale(1.01);
+  background: var(--tertiary);
+  transition: 0.2s;
 }
