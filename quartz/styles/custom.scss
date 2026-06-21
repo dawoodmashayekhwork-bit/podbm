@@ -124,19 +124,22 @@ article {
 }
 
 //  جدول ها و عکس ها وسط چین شن
-
-.media-center img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.media-center table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.media-center th,
-.media-center td {
+.center-page {
   text-align: center;
+}
+
+.center-page table,
+.center-page th,
+.center-page td {
+  text-align: center !important;
+}
+
+.center-page ul,
+.center-page ol {
+  list-style-position: inside;
+}
+
+.center-page img {
+  margin-left: auto;
+  margin-right: auto;
 }
