@@ -121,3 +121,32 @@ article {
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
+
+// جدول ها 
+table {
+  margin: 2rem auto;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--lightgray);
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+
+th {
+  text-align: center;
+  padding: 14px;
+  font-weight: 700;
+}
+
+td {
+  text-align: center;
+  padding: 12px;
+}
+
+tr {
+  transition: all .2s ease;
+}
+
+tr:hover {
+  transform: scale(1.01);
+}
