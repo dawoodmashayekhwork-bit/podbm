@@ -192,6 +192,7 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
