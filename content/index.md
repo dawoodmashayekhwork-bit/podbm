@@ -4,19 +4,49 @@ tags:
   - معماری_و_رازجاودانگی
 ---
 
+<div class="mac-top">
+  <div class="mac-top-image">
 
-![[صفحع اول (2).png|600]]
+![[صفحع اول (2).png|325]]
 
-<div class="mac-player-wrap">
-  <div class="mac-player-label">
-    <span>🎧</span> چیکار میکنیم
   </div>
-  <iframe src="https://shenoto.com/player/podcast/1852469" scrolling="no" frameborder="0" height="210px" width="100%">
-  </iframe>
+  <div class="mac-top-player">
+    <div class="mac-player-label"><span>🎧</span> چیکار میکنیم</div>
+    <iframe src="https://shenoto.com/iframe3/album/podcast/1852469" scrolling="no" frameborder="0" width="325" height="340"></iframe>
+  </div>
+</div>
+
+<div class="mac-nav">
+
+[[فهرست کتاب]]
+
+[[فایل های کتاب صوتی]]
+
+[[روایت مترجم از ترجمه کتاب]]
+
 </div>
 
 <style>
-.mac-player-wrap{
+.mac-top{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.mac-top-image,
+.mac-top-player{
+  width: 325px;
+  max-width: 100%;
+}
+.mac-top-image img{
+  width: 325px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+.mac-top-player{
   background: var(--green-deep, #1f4a3d);
   border-radius: 16px;
   padding: 14px 14px 0;
@@ -32,24 +62,12 @@ tags:
   margin-bottom: 10px;
   padding: 0 4px;
 }
-.mac-player-wrap iframe{
+.mac-top-player iframe{
   display: block;
+  border: none;
   border-radius: 10px 10px 0 0;
   background: #fff;
 }
-</style>
-
-<div class="mac-nav">
-
-[[فهرست کتاب]]
-
-[[فایل های کتاب صوتی]]
-
-[[چیکار میکنیم]]
-
-</div>
-
-<style>
 .mac-nav{
   display: flex;
   gap: 10px;
@@ -76,7 +94,6 @@ tags:
 }
 </style>
 
-
 # درباره این پروژه
 
 سلام.
@@ -100,13 +117,9 @@ tags:
 
 صددرصد این محتوای صوتی جایگزین کتاب نیست و زمانی که خود کتاب را بخوانید، درک بسیار بهتری از مطالب خواهید داشت.
 
-
-
-
 <center>
 
 | [[روایت مترجم از ترجمه کتاب\|اولین قسمت]] |
 | ------------------- |
+
 </center>
-
-
