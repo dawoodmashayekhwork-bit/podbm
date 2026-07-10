@@ -5,7 +5,7 @@ tags:
 ---
 
 
-![[صفحع اول (2).png|450]]
+![[صفحع اول (2).png|600]]
 
 <div class="mac-player-wrap">
   <div class="mac-player-label">
@@ -110,5 +110,3 @@ tags:
 </center>
 
 
-
-[[تست ]]
