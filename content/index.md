@@ -4,7 +4,9 @@ tags:
   - معماری_و_رازجاودانگی
 ---
 
-## چیکار میکنیم
+
+![[صفحع اول (2).png|450]]
+
 <div class="mac-player-wrap">
   <div class="mac-player-label">
     <span>🎧</span> چیکار میکنیم
@@ -37,7 +39,7 @@ tags:
 }
 </style>
 
-<center<div class="mac-nav">
+<div class="mac-nav">
 
 [[فهرست کتاب]]
 
@@ -74,8 +76,6 @@ tags:
 }
 </style>
 
-
-![[صفحع اول (2).png|450]]
 
 # درباره این پروژه
 
