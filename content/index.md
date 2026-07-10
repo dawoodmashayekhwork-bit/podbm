@@ -16,50 +16,12 @@ tags:
 
 [[روایت مترجم از ترجمه کتاب]]
 
+[[دیباچه مترجم]]
+
 </div>
 
 <style>
-.mac-top{
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 16px;
-}
-.mac-top-image,
-.mac-top-player{
-  width: 325px;
-  max-width: 100%;
-}
-.mac-top-image img{
-  width: 325px;
-  height: 340px;
-  object-fit: cover;
-  border-radius: 16px;
-  display: block;
-}
-.mac-top-player{
-  background: var(--green-deep, #1f4a3d);
-  border-radius: 16px;
-  padding: 14px 14px 0;
-  overflow: hidden;
-}
-.mac-player-label{
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  padding: 0 4px;
-}
-.mac-top-player iframe{
-  display: block;
-  border: none;
-  border-radius: 10px 10px 0 0;
-  background: #fff;
-}
+
 .mac-nav{
   display: flex;
   gap: 10px;
