@@ -4,17 +4,9 @@ tags:
   - معماری_و_رازجاودانگی
 ---
 
-<div class="mac-top">
-  <div class="mac-top-image">
+![[صفحع اول (2).png]]
 
-![[صفحع اول (2).png|325]]
-
-  </div>
-  <div class="mac-top-player">
-    <div class="mac-player-label"><span>🎧</span> چیکار میکنیم</div>
-    <iframe src="https://shenoto.com/iframe3/album/podcast/1852469" scrolling="no" frameborder="0" width="325" height="340"></iframe>
-  </div>
-</div>
+<iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
 
 <div class="mac-nav">
 
