@@ -3,55 +3,76 @@ title: خوانش کتاب معماری و راز جاودانگی
 tags:
   - معماری_و_رازجاودانگی
 ---
+<div class="mac-hero">
+  <div class="mac-hero-inner">
+    <h2>معماری و راز جاودانگی</h2>
+    <p>خوانش جمعی و فصل‌به‌فصل کتاب، به همت علاقه‌مندان معماری</p>
+    <div class="mac-actions">
+      <div class="mac-action">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 10v4h4l5 5V5L7 10H3z"/></svg>
+        <span>شنیدن</span>
+      </div>
+      <div class="mac-action">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h7v15H4zM20 5h-7v15h7z"/></svg>
+        <span>خواندن</span>
+      </div>
+      <div class="mac-action">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg>
+        <span>درک کردن</span>
+      </div>
+      <div class="mac-action">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><path d="M2 20c0-3 3-5 6-5s6 2 6 5M12 20c0-3 3-5 6-5s6 2 6 5"/></svg>
+        <span>باهم ساختن</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-## چیکار میکنیم
-
-<iframe src="https://shenoto.com/player/podcast/1852469" scrolling="no" frameborder="0" height="210px" width="100%" >
-</iframe>
-
-![[صفحع اول (2).png | 697]]
-
-
-<center>
-
-| [[فهرست کتاب]] | [[فایل های کتاب صوتی]] | [[چیکار میکنیم]] |
-| ------- | ------------------- | ---------------- |
-
-
-</center>
-
-# درباره این پروژه
-
-سلام.
-خیلی خوشحالم که همراه شما هستم و قرار است درباره این مجموعه فایل‌های صوتی، که به اصطلاح به آن «کتاب صوتی» می‌گوییم، صحبت کنم.
-
-واقعیت امر این است که قرار است در این مجموعه، با استفاده از همراهی جمعی از دوستداران معماری، فصل‌های کتاب **«معماری و راز جاودانگی»** را برایتان بخوانیم.
-
-## چرا این پروژه؟
-
-این کار از چندین بعد حائز اهمیت است.
-
-در سطحی‌ترین لایه، ما داریم یک کتاب خیلی ارزشمند را می‌خوانیم؛ کتابی که برای خودمان درک تازه‌ای از معماری ایجاد کرده و خیلی به ما کمک کرده است.
-
-از لایه بالاتر، تفاوت بین لحن‌ها، سبک‌ها و میزان تسلط افراد در خوانش کتاب، برای ما بسیار ارزشمند است و می‌تواند دید مناسبی از تفاوت نگرش‌ها، تفاوت سبک‌های خواندن و شاید در ادامه، زمینه‌ای برای یک تحقیق باشد؛ اینکه انسان‌ها به چه صورتی با یک کتاب یا یک متن ارتباط برقرار می‌کنند و با آن چالش دارند.
-
-## درباره کتاب
-
-در مرحله بعدی، خود کتاب اهمیت دارد.
-
-این کتاب، کتابی شاخص و بسیار ارزشمند است. از همین جهت به شما پیشنهاد می‌کنم که جدا از شنیدن این کتاب صوتی، خود کتاب را نیز تهیه کنید.
-
-صددرصد این محتوای صوتی جایگزین کتاب نیست و زمانی که خود کتاب را بخوانید، درک بسیار بهتری از مطالب خواهید داشت.
-
-
-
-
-<center>
-
-| [[روایت مترجم از ترجمه کتاب\|اولین قسمت]] |
-| ------------------- |
-</center>
-
-
-
-[[تست ]]
+<style>
+.mac-hero{
+  background: var(--green-soft, #e7efe6);
+  border: 1px solid var(--border-color, #dcd6c4);
+  border-radius: 0 0 16px 16px;
+  margin-top: -12px;
+  padding-top: 12px;
+}
+.mac-hero-inner{
+  padding: 20px 22px 18px;
+  text-align: center;
+}
+.mac-hero-inner h2{
+  margin: 0 0 6px;
+  font-size: 18px;
+  color: var(--green-deep, #1f4a3d);
+}
+.mac-hero-inner p{
+  margin: 0 0 16px;
+  font-size: 13.5px;
+  color: var(--text-soft, #5c665f);
+}
+.mac-actions{
+  display: flex;
+  gap: 8px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.mac-action{
+  flex: 1;
+  background: #fff;
+  border: 1px solid var(--border-color, #dcd6c4);
+  border-radius: 10px;
+  padding: 10px 6px;
+  cursor: default;
+}
+.mac-action svg{
+  width: 20px;
+  height: 20px;
+  color: var(--olive, #8a7a4f);
+  margin-bottom: 4px;
+}
+.mac-action span{
+  display: block;
+  font-size: 11.5px;
+  font-weight: 500;
+}
+</style>
