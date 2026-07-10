@@ -3,12 +3,12 @@ title: خوانش کتاب معماری و راز جاودانگی
 tags:
   - معماری_و_رازجاودانگی
 ---
-![[صفحع اول (2).png | 697]]
-
 ## چیکار میکنیم
 
 <iframe src="https://shenoto.com/player/podcast/1852469" scrolling="no" frameborder="0" height="210px" width="100%" >
 </iframe>
+
+![[صفحع اول (2).png | 697]]
 
 
 <center>
