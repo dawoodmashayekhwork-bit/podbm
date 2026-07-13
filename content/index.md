@@ -2,7 +2,10 @@
 title: خوانش کتاب معماری و راز جاودانگی
 tags:
   - معماری_و_رازجاودانگی
+
+description: کتاب صوتی معماری و راز جاودانگی 
 ---
+
 
 ![[صفحع اول (2).png]]
 
@@ -18,33 +21,6 @@ tags:
 
 </div>
 
-<style>
-
-.mac-nav{
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin: 20px 0;
-  flex-wrap: wrap;
-}
-.mac-nav .internal-link{
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 999px;
-  background: var(--green-soft, #e7efe6);
-  border: 1px solid var(--olive, #8a7a4f);
-  color: var(--green-deep, #1f4a3d);
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 500;
-  transition: .2s;
-}
-.mac-nav .internal-link:hover{
-  background: var(--green-deep, #1f4a3d);
-  color: #fff;
-  transform: translateY(-2px);
-}
-</style>
 
 # درباره این پروژه
 
@@ -75,3 +51,40 @@ tags:
 | ------------------- |
 
 </center>
+
+
+
+
+
+
+
+
+
+
+<style>
+
+.mac-nav{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.mac-nav .internal-link{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--green-soft, #e7efe6);
+  border: 1px solid var(--olive, #8a7a4f);
+  color: var(--green-deep, #1f4a3d);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .2s;
+}
+.mac-nav .internal-link:hover{
+  background: var(--green-deep, #1f4a3d);
+  color: #fff;
+  transform: translateY(-2px);
+}
+</style>
