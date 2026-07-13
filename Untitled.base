@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: "2"
+    filters:
+      and:
+        - "!image.isEmpty()"
+    image: note.image
