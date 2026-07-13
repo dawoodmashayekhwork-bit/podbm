@@ -83,7 +83,7 @@ plugins:
       markdownLinkResolution: shortest
     order: 60
   - source: github:quartz-community/description
-    enabled: true
+    enabled: false
     order: 70
   - source: github:quartz-community/latex
     enabled: true
@@ -116,7 +116,7 @@ plugins:
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
-    enabled: FALSE
+    enabled: false
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
