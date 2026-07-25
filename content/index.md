@@ -11,8 +11,14 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   <img src="صفحع اول (2).png" alt="صفحه اول کتاب معماری و راز جاودانگی">
 </div>
 
-<div class="podbm-player-card">
-  <iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="110px"></iframe>
+<!-- پلیر مخصوص کامپیوتر و تبلت -->
+<div class="podbm-player-card desktop-player">
+  <iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
+</div>
+
+<!-- پلیر مخصوص موبایل -->
+<div class="podbm-player-card mobile-player">
+  <iframe src="https://shenoto.com/iframe3/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="340"></iframe>
 </div>
 
 <div class="mac-nav">
@@ -116,22 +122,40 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   display: block;
 }
 
-/* --- اصلاح ساختار پلیر صوتی برای نمایش کامل در موبایل --- */
+/* --- تنظیمات نمایش پلیرها بر اساس اندازه صفحه --- */
 .podbm-player-card {
   background: #ffffff;
   border-radius: 14px;
-  padding: 12px;
+  padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #e2e8e0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
   overflow: hidden;
+  text-align: center;
 }
 
 .podbm-player-card iframe {
-  width: 100% !important;
-  min-height: 105px;
   border: none;
   display: block;
+  margin: 0 auto;
+}
+
+/* پیش‌فرض: در کامپیوتر پلیر افقی نمایش داده شده و پلیر موبایل مخفی است */
+.desktop-player {
+  display: block;
+}
+.mobile-player {
+  display: none;
+}
+
+/* در صفحات کوچک‌تر از ۷۶۸ پیکسل (موبایل)، برعکس می‌شود */
+@media screen and (max-width: 768px) {
+  .desktop-player {
+    display: none;
+  }
+  .mobile-player {
+    display: block;
+  }
 }
 
 /* --- استایل دکمه‌های ناوبری بالا --- */
