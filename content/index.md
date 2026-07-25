@@ -77,7 +77,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
       </div>
       <div class="form-group">
         <label for="subject">موضوع پیام</label>
-        <input type="text" id="subject" name="subject" placeholder="مثلاً: درخواست پروژه معماری / مشاوره" required>
+        <input type="text" id="subject" name="subject" placeholder="مثلاً: پیشنهاد / مشاوره" required>
       </div>
       <div class="form-group">
         <label for="message">متن پیام</label>
