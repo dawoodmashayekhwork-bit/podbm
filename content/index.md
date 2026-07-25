@@ -11,6 +11,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 <iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
 
 <div class="mac-nav">
+[[خرید کتاب]]
 [[فهرست کتاب]]
 [[محتواهای کتاب صوتی]]
 [[روایت مترجم از ترجمه کتاب]]
