@@ -11,9 +11,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   <img src="صفحع اول (2).png" alt="صفحه اول کتاب معماری و راز جاودانگی">
 </div>
 
-<div class="podbm-player-card">
   <iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
-</div>
 
 <div class="mac-nav">
   <a href="خرید-کتاب" class="internal-link">خرید کتاب</a>
@@ -62,6 +60,35 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 </div>
 
 </div>
+
+
+
+  <!-- فرم تماس مستقیم -->
+  <div class="contact-form-card">
+    <h3>ارسال پیام مستقیم</h3>
+    <form action="https://formspree.io/f/xlgqwjqj" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">نام و نام خانوادگی</label>
+        <input type="text" id="name" name="name" placeholder="مثلاً: علی رضایی" required>
+      </div>
+      <div class="form-group">
+        <label for="email">ایمیل شما</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">موضوع پیام</label>
+        <input type="text" id="subject" name="subject" placeholder="مثلاً: درخواست پروژه معماری / مشاوره" required>
+      </div>
+      <div class="form-group">
+        <label for="message">متن پیام</label>
+        <textarea id="message" name="message" rows="5" placeholder="پیام خود را بنویسید..." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">ارسال پیام</button>
+    </form>
+  </div>
+
+
+
 
 <style>
 /* --- تنظیمات کلی کانتینر هیرو --- */
@@ -173,4 +200,74 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   box-shadow: 0 10px 25px rgba(31, 74, 61, 0.35);
   background: linear-gradient(135deg, #16362c 0%, #1f4a3d 100%);
 }
+
+
+  .contact-form-card {
+    border: 1px solid var(--lightgray, #e5e5e5);
+    border-radius: 20px;
+    padding: 2rem;
+    background: color-mix(in srgb, var(--light, #fff) 98%, transparent);
+  }
+
+  .contact-form-card h3 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .form-group label {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--dark, #1d1d1f);
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px 14px;
+    border: 1px solid var(--lightgray, #ccc);
+    border-radius: 10px;
+    background: var(--light, #fff);
+    color: var(--dark, #1d1d1f);
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: var(--secondary, #0071e3);
+  }
+
+  .submit-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: var(--secondary, #0071e3);
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+    margin-top: 0.5rem;
+  }
+
+  .submit-btn:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+  }
+
 </style>
