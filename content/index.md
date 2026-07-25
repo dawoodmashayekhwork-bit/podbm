@@ -16,9 +16,9 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   <iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
 </div>
 
-<!-- پلیر مخصوص موبایل -->
-<div class="podbm-player-card mobile-player">
-  <iframe src="https://shenoto.com/iframe3/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="340"></iframe>
+<!-- پلیر مخصوص موبایل (بهینه‌سازی شده و کاملاً فیت) -->
+<div class="mobile-player-container">
+  <iframe src="https://shenoto.com/iframe3/album/podcast/1852469" scrolling="no" frameborder="0"></iframe>
 </div>
 
 <div class="mac-nav">
@@ -122,7 +122,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   display: block;
 }
 
-/* --- تنظیمات نمایش پلیرها بر اساس اندازه صفحه --- */
+/* --- تنظیمات پلیر کامپیوتر --- */
 .podbm-player-card {
   background: #ffffff;
   border-radius: 14px;
@@ -131,29 +131,39 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   border: 1px solid #e2e8e0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
   overflow: hidden;
-  text-align: center;
 }
 
-.podbm-player-card iframe {
+/* --- تنظیمات فوق‌العاده برای پلیر موبایل (بدون کادر اضافی و کاملاً فیت) --- */
+.mobile-player-container {
+  display: none;
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto 20px auto;
+  background: #1d2530;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  border: 1px solid #2a3544;
+}
+
+.mobile-player-container iframe {
+  width: 100%;
+  height: 335px;
   border: none;
   display: block;
-  margin: 0 auto;
+  background: transparent;
 }
 
-/* پیش‌فرض: در کامپیوتر پلیر افقی نمایش داده شده و پلیر موبایل مخفی است */
+/* مدیریت نمایش بر اساس نوع دستگاه */
 .desktop-player {
   display: block;
 }
-.mobile-player {
-  display: none;
-}
 
-/* در صفحات کوچک‌تر از ۷۶۸ پیکسل (موبایل)، برعکس می‌شود */
 @media screen and (max-width: 768px) {
   .desktop-player {
     display: none;
   }
-  .mobile-player {
+  .mobile-player-container {
     display: block;
   }
 }
@@ -226,7 +236,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 }
 
 .podbm-cta-btn:hover {
-  transform: translateY(-3px);
+  transform: translateY{-3px};
   box-shadow: 0 10px 25px rgba(31, 74, 61, 0.35);
   background: linear-gradient(135deg, #16362c 0%, #1f4a3d 100%);
 }
