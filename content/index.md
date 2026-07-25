@@ -8,23 +8,18 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 <div class="podbm-hero-wrapper">
 
 <div class="podbm-banner-card">
-![[صفحع اول (2).png]]
+  <img src="صفحع اول (2).png" alt="صفحه اول کتاب معماری و راز جاودانگی">
 </div>
 
 <div class="podbm-player-card">
-<iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
+  <iframe src="https://shenoto.com/iframe2/album/podcast/1852469" scrolling="no" frameborder="0" width="100%" height="102px"></iframe>
 </div>
 
 <div class="mac-nav">
-
-[[خرید کتاب]]
-
-[[فهرست کتاب]]
-
-[[محتواهای کتاب صوتی]]
-
-[[روایت مترجم از ترجمه کتاب]]
-
+  [[خرید کتاب]]
+  [[فهرست کتاب]]
+  [[محتواهای کتاب صوتی]]
+  [[روایت مترجم از ترجمه کتاب]]
 </div>
 
 </div>
@@ -46,7 +41,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 
 در سطحی‌ترین لایه، ما داریم یک کتاب خیلی ارزشمند را می‌خوانیم؛ کتابی که برای خودمان درک تازه‌ای از معماری ایجاد کرده و خیلی به ما کمک کرده است.
 
-از لایه بالاتر، تفاوت بین لحن‌ها، سبک‌ها و میزان تسلط افراد در خوانش کتاب، برای ما بسیار ارزشمند است و می‌تواند دید مناسبی از تفاوت نگرش‌ها، تفاوت سبک‌های خواندن و شاید در ادامه، زمینه‌ای برای یک تحقیق باشد؛ اینکه انسان‌ها به چه صورتی با یک کتاب یا یک متن ارتباط برقرار می‌کنند و با آن چالش دارند.
+از لایه بالاتر، تفاوت بین لحن‌ها، سبک‌ها و میزان تسلط افراد در خوانش کتاب، برای ما بسیار ارزشمند است و می‌تواند دید مناسبی از تفاوت نگرش‌ها، تفاوت سبک‌های خواندن و شاید در ادامه، زمینه‌ای برای یک تحقیق باشد؛ اینکه انسان‌ها به چه صورتی با یک کتاب یا متن ارتباط برقرار می‌کنند و با آن چالش دارند.
 
 </div>
 
@@ -62,21 +57,16 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 
 </div>
 
-<center>
-
-<div class="podbm-cta-card">
-
-| [[روایت مترجم از ترجمه کتاب\|اولین قسمت]] |
-| ------------------- |
-
+<div class="podbm-cta-center">
+  <div class="podbm-cta-button">
+    [[روایت مترجم از ترجمه کتاب|اولین قسمت]]
+  </div>
 </div>
-
-</center>
 
 </div>
 
 <style>
-/* --- تنظیمات کلی و متدهای جذاب بصری --- */
+/* --- تنظیمات کلی کانتینر هیرو --- */
 .podbm-hero-wrapper {
   background: linear-gradient(145deg, #f7f9f6 0%, #eef3ed 100%);
   border: 1px solid #d9e2d7;
@@ -84,12 +74,24 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   padding: 24px;
   margin-bottom: 30px;
   box-shadow: 0 10px 30px rgba(31, 74, 61, 0.05);
+  direction: rtl;
+}
+
+.podbm-banner-card {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 14px;
+  margin-bottom: 20px;
 }
 
 .podbm-banner-card img {
   border-radius: 14px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
   transition: transform 0.3s ease;
 }
 
@@ -101,17 +103,16 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   background: #ffffff;
   border-radius: 14px;
   padding: 10px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   border: 1px solid #e2e8e0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
 }
 
-/* --- استایل دکمه‌ها (کارت‌های ناوبری بامزه و پویا) --- */
+/* --- استایل دکمه‌های ناوبری بالا --- */
 .mac-nav {
   display: flex;
   gap: 12px;
   justify-content: center;
-  margin-top: 24px;
   flex-wrap: wrap;
 }
 
@@ -138,9 +139,10 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   box-shadow: 0 8px 20px rgba(31, 74, 61, 0.2);
 }
 
-/* --- کانتینر و کارت‌های محتوایی متن --- */
+/* --- کارت‌های محتوایی متن --- */
 .podbm-content-container {
   padding: 0 10px;
+  direction: rtl;
 }
 
 .podbm-section-card {
@@ -157,41 +159,30 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   border-color: #c9d7c5;
 }
 
-/* --- استایل کارت دکمه نهایی (اولین قسمت) --- */
-.podbm-cta-card table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
+/* --- اصلاح دکمه نهایی (اولین قسمت) --- */
+.podbm-cta-center {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.podbm-cta-button .internal-link {
+  display: inline-block;
+  padding: 16px 36px;
   background: linear-gradient(135deg, #1f4a3d 0%, #2c6653 100%);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 6px 20px rgba(31, 74, 61, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.podbm-cta-card table:hover {
-  transform: translateY(-3px);
-}
-
-.podbm-cta-card th, .podbm-cta-card td {
-  padding: 16px !important;
-  text-align: center;
-  border: none !important;
-}
-
-.podbm-cta-card .internal-link {
   color: #ffffff !important;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.15);
-  transition: background 0.2s ease;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(31, 74, 61, 0.25);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.podbm-cta-card .internal-link:hover {
-  background: rgba(255, 255, 255, 0.25);
+.podbm-cta-button .internal-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(31, 74, 61, 0.35);
+  background: linear-gradient(135deg, #16362c 0%, #1f4a3d 100%);
 }
 </style>
