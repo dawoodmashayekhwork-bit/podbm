@@ -16,10 +16,10 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 </div>
 
 <div class="mac-nav">
-  [[خرید کتاب]]
-  [[فهرست کتاب]]
-  [[محتواهای کتاب صوتی]]
-  [[روایت مترجم از ترجمه کتاب]]
+  <a href="خرید-کتاب" class="internal-link">خرید کتاب</a>
+  <a href="فهرست-کتاب" class="internal-link">فهرست کتاب</a>
+  <a href="محتواهای-کتاب-صوتی" class="internal-link">محتواهای کتاب صوتی</a>
+  <a href="روایت-مترجم-از-ترجمه-کتاب" class="internal-link">روایت مترجم از ترجمه کتاب</a>
 </div>
 
 </div>
@@ -58,9 +58,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
 </div>
 
 <div class="podbm-cta-center">
-  <div class="podbm-cta-button">
-    [[روایت مترجم از ترجمه کتاب|اولین قسمت]]
-  </div>
+  <a href="روایت-مترجم-از-ترجمه-کتاب" class="podbm-cta-btn">اولین قسمت (روایت مترجم از ترجمه کتاب)</a>
 </div>
 
 </div>
@@ -89,14 +87,9 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   border-radius: 14px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   width: 100%;
-  max-height: 400px;
+  max-height: 450px;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
-}
-
-.podbm-banner-card img:hover {
-  transform: scale(1.01);
 }
 
 .podbm-player-card {
@@ -152,21 +145,16 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   padding: 24px;
   margin: 20px 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-  transition: border-color 0.3s ease;
 }
 
-.podbm-section-card:hover {
-  border-color: #c9d7c5;
-}
-
-/* --- اصلاح دکمه نهایی (اولین قسمت) --- */
+/* --- دکمه نهایی (اولین قسمت) --- */
 .podbm-cta-center {
   display: flex;
   justify-content: center;
   margin: 30px 0;
 }
 
-.podbm-cta-button .internal-link {
+.podbm-cta-btn {
   display: inline-block;
   padding: 16px 36px;
   background: linear-gradient(135deg, #1f4a3d 0%, #2c6653 100%);
@@ -180,7 +168,7 @@ description: معماری و راز جاودانگی - خوانش کتاب به 
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.podbm-cta-button .internal-link:hover {
+.podbm-cta-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(31, 74, 61, 0.35);
   background: linear-gradient(135deg, #16362c 0%, #1f4a3d 100%);
