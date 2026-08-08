@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: fa-IR
-  baseUrl: www.podbm.ir
+  baseUrl: podbm.ir
   ignorePatterns:
     - private
     - templates
